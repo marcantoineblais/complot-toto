@@ -1,0 +1,57 @@
+@import '../utilities/variables.scss';
+
+.error-screen {
+  background-color: $black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 3000ms;
+
+  .container {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  h2 {
+    font-size: 32px;
+    color: $soft-white;
+    padding: 1em;
+    z-index: 1;
+  }
+
+  #fatal {
+    align-self: flex-start;
+  }
+
+  #error {
+    align-self: flex-end;
+  }
+
+  .vertical-symbols {
+    position: absolute;
+    color: $translucent-green;
+    width: 100%;
+    font-size: 16px;
+    overflow: visible;
+  }
+  
+  .top {
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+  }
+  
+  .bottom {
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    margin-bottom: -1.25em;
+  }
+
+}
+
+.fade-to-white {
+  filter: saturate(10) contrast(10) brightness(10);
+  opacity: 0;
+}

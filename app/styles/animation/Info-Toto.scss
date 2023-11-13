@@ -1,0 +1,24 @@
+@import '../utilities/variables.scss';
+
+.info-toto {
+  font-size: 28px;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  width: 100%;
+  height: 160px;
+  color: $yellow;
+  display: none;
+  flex-direction: column;
+  gap: 0.5em;
+
+  .bottom-span {
+    align-self: flex-end;
+  }
+
+  .text {
+    align-self: center;
+    min-height: 1.25em;
+    text-align: center;
+  }
+}

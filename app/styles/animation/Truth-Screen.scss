@@ -1,0 +1,50 @@
+@import '../utilities/variables.scss';
+
+.truth-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: $soft-white;
+
+  a {
+    position: relative;
+  }
+
+  .left {
+    left: 0.25em;
+  }
+
+  .right {
+    right: 0.25em;
+  }
+
+  .top {
+    top: 0.25em;
+  }
+
+  .bottom {
+    bottom: 0.25em;
+  }
+
+  .zoom-in {
+    transform: scale(1.1);
+  }
+
+  .zoom-out {
+    transform: scale(0.9);
+  }
+
+  .rotate-right {
+    transform: rotate(3deg);
+  }
+
+  .rotate-left {
+    transform: rotate(-3deg);
+  }
+}
+
+.inverse-color {
+  background-color: $black;
+  color: $gold;
+}

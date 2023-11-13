@@ -1,0 +1,35 @@
+@import '../utilities/variables.scss';
+
+.start-screen {
+  height: 100%;
+  background-color: $black;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  a, button {
+    background-color: inherit;
+    border: none;
+    color: $gold;
+    text-decoration: none;
+  }
+
+  h1 {
+    color: $soft-white;
+  }
+
+  #start {
+    align-self: center;
+    justify-self: center;
+    flex-grow: 1;
+    padding-top: 3em;
+  }
+
+  #skip {
+    align-self: flex-end;
+    justify-self: flex-end;
+    padding:0 3em 3em 0;
+  }
+}
