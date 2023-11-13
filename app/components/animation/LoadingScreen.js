@@ -53,7 +53,7 @@ export default function LoadingScreen({ setActive }) {
                         <div className="white-dot" ref={dot2}></div>
                         <div className="white-dot" ref={dot3}></div>
                     </div>
-                    <p id="mute">(CLIQUEZ SUR L'ÉCRAN POUR FERMER L'AUDIO)</p>
+                    <p id="mute">(CLIQUEZ SUR L&apos;ÉCRAN POUR FERMER L&apos;AUDIO)</p>
                 </div>
             </div>
         </div>

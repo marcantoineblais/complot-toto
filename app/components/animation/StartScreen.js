@@ -16,7 +16,7 @@ export default function StartScreen({ setActive, play }) {
                 <button
                     id="start"
                     onClick={() => start()}>
-                    <h1>Débuter l'aventure</h1>
+                    <h1>Débuter l&apos;aventure</h1>
                 </button>
                 <Link href='/truth' id='skip'>[Skip intro]</Link>
             </div>

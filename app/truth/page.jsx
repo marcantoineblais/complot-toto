@@ -64,7 +64,7 @@ const Homepage = () => {
                     <h1 ref={h1Ref}>CONFIDENTIEL</h1>
                     <h3>
                         Les dossiers ci-dessous sont strictement confidentiels.
-                        Toute personne partageant son contenu sera passible d'une sentence de haute trahison.
+                        Toute personne partageant son contenu sera passible d&apos;une sentence de haute trahison.
                     </h3>
                     <h2>Poursuivez à vos risques.</h2>
                 </div>
@@ -107,21 +107,21 @@ const Homepage = () => {
                             pouvoir des gouvernements des puissances mondiales sans être repéré. Les nombreuses avancées technologiques dans le
                             domaine de la bio-mécanique ont permis la création du projet TOTO, qui offre une alternative au contrôle mental. Grâce
                             au travail de nombreux scientifiques, le projet TOTO est un succès total. Il est désormais possible de créer des clones
-                            et de les programmer afin de remplacer n'importe quels individus.
+                            et de les programmer afin de remplacer n&apos;importe quels individus.
                         </p>
 
                         <h3>RÉSULTATS DU PROJET:</h3>
                         <p>
-                            En 1982, nom de code: "POUPOUNE" est officiellement enceinte du premier sujet. À ce moment, il est clair que
-                            nom de code: "TOTO" est en parfaite santé et possède les bons attributs génétiques pour être répliqué avec succès.
-                            Le premier clone, nom de code: "MAXOU", fut conçu in vitro quelques semaines plus tard. Il est la parfaite copie de "TOTO",
-                            mais l'équipe de scientique à légèrement modifié son ADN afin de le rendre plus vulnérable au conditionnement qui
+                            En 1982, nom de code: &quot;POUPOUNE&quot; est officiellement enceinte du premier sujet. À ce moment, il est clair que
+                            nom de code: &quot;TOTO&quot; est en parfaite santé et possède les bons attributs génétiques pour être répliqué avec succès.
+                            Le premier clone, nom de code: &quot;MAXOU&quot;, fut conçu in vitro quelques semaines plus tard. Il est la parfaite copie de &quot;TOTO&quot;,
+                            mais l&apos;équipe de scientique à légèrement modifié son ADN afin de le rendre plus vulnérable au conditionnement qui
                             allait suivre sa naissance.
                         </p>
 
                         <h3>PROCESSUS ET TEST CLINIQUES:</h3>
                         <p>
-                            Il n'existe que très peu de preuves sur l'existence du projet, mais l'équipe à conserver un de leur serveur de données actif.
+                            Il n&apos;existe que très peu de preuves sur l&apos;existence du projet, mais l&apos;équipe à conserver un de leur serveur de données actif.
                             Utilisez cette connexion sécurisée pour accéder aux détails du projet: TOTO.
                         </p>
 

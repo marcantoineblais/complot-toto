@@ -10,7 +10,6 @@ import StartScreen from "./components/animation/StartScreen"
 import { wait } from "./helpers"
 
 export default function Animation() {
-    const AudioContext = window.AudioContext || window.webkitAudioContext
     const [startScreen, setStartScreen] = React.useState(false)
     const [loadingScreen, setLoadingScreen] = React.useState(false)
     const [hackingScreen, setHackingScreen] = React.useState(false)
